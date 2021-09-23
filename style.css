@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(16, 13, 24, 0.616);
+  }
+
+  #container {
+    position: absolute;
+    top: 45px;
+    margin-left: 260px;
+  }
+
+  .card {
+    border: 2px solid #9DD1F1;
+    height: 200px;
+    margin-top: 10px;
+    text-align: center;
+    width: 273px;
+    display: inline-block;
+    margin: 40px;
+    box-shadow: 10px 10px 15px 5px rgba(119, 119, 119, 0.3),
+                -5px -5px 10px 5px rgba(3, 3, 3, 0.8),
+                inset 5px 5px 20px 5px rgba(119, 119, 119, 0.3),
+                inset -5px -5px 10px 5px rgba(255, 255, 255, 0.8);
+  }
+  .card:hover {
+    background-color: #333131;
+    border-color: #263544;
+  }
+
+  .card img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .side-items{
+    background-color: #263544;
+    color: #e0e0e0;
+    padding-top: 20px;
+    min-height: 15vh;
+    width: 260px;
+    transition: width 0.4s;
+    text-align: center;
+
+}
+
+.cart-price{
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+
+.cart-title:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.cart-list{
+    background-color: #1d2532;
+    height: 70px;
+    padding-top: 20px;
+    color: #e0e0e0;
+    text-align: center;
+    width: 248px;
+}
+
+.active:hover {
+  background-color: rgba(24, 0, 0, 0.5);
+}
+
+.cart-num-, .cart-plus, .cart-minus, .cart-num-content{
+  display: inline-block;
+ 
+}
+#subtotal-value, #tax-value, #total-value{
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+}
